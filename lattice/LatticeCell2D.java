@@ -59,7 +59,7 @@ public abstract class LatticeCell2D <T extends LatticeCell2D<T>> extends Lattice
      * @return an Iterable{@literal <}CT{@literal >} object over the diagonal neighbours (those touching at the corners)
      */
     protected Iterable<T> diagonalNeigs(){ 
-        return buffer.getIterableInstance(pos,MooreNeighbours);
+        return buffer.getIterableInstance(pos,DiagonalNeighbours);
     }
     /**
      * @return an Iterable{@literal <}CT{@literal >} object over the vonNeumann neighbourhood (neighbours sharing faces).

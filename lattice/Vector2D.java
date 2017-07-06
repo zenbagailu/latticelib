@@ -1,4 +1,3 @@
-package lattice;
 /*
 Copyright 2017 Pablo Miranda Carranza
 
@@ -21,6 +20,8 @@ limitations under the License.
  *  @author Pablo Miranda Carranza
  */
 
+ package lattice;
+
 import java.lang.IllegalArgumentException;
 
 /**
@@ -28,7 +29,7 @@ import java.lang.IllegalArgumentException;
 *  @author Pablo Miranda Carranza
 */
 
-public class Vector2D extends Vector {
+public class Vector2D extends Vector{
 
 	int x,y;
 	Vector2D(int x, int y){
